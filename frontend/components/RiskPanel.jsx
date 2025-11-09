@@ -1,5 +1,5 @@
 import { Cloud, AlertTriangle, CheckCircle, AlertCircle, XCircle, X } from 'lucide-react';
-import { getRiskClasses } from '@/lib/utils';
+import { getRiskClasses } from '../lib/utils';
 import { useState, useEffect } from 'react';
 
 export default function RiskPanel({ data, onClose }) {
