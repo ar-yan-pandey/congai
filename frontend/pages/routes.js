@@ -5,7 +5,7 @@ import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import Loader from '@/components/Loader';
 import { congestionAPI } from '@/utils/api';
-import { getCongestionColor, getRiskClasses } from '@/lib/utils';
+import { getCongestionColor, getRiskClasses } from '../lib/utils';
 import { Navigation, Clock, TrendingUp, AlertTriangle, MapPin, ChevronDown, BarChart3 } from 'lucide-react';
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, Area, AreaChart, BarChart, Bar, CartesianGrid, Legend } from 'recharts';
 

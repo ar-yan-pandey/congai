@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import Loader from '@/components/Loader';
 import RiskPanel from '@/components/RiskPanel';
 import { congestionAPI } from '@/utils/api';
-import { generateLocationGrid } from '@/lib/utils';
+import { generateLocationGrid } from '../lib/utils';
 import { Clock, RefreshCw, MapPin, Search } from 'lucide-react';
 
 // Dynamic import for AIAssistant to avoid SSR issues with Three.js
